@@ -2,7 +2,7 @@ var btn = document.getElementById("btn");
 
 window.onload = function(){
   var req = new XMLHttpRequest();
-  req.open('GET','https://github.com/ProstoMimoProhodill/ReadHTML/blob/dev/Mephi_data/data.json');
+  req.open('GET','https://prostomimoprohodill.github.io/data.json');
   req.send();
 
   if (req.status != 200) {
