@@ -1,0 +1,29 @@
+* {
+  padding: 2px;
+  margin: 2px;
+}
+
+h1 {
+  color: red;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+  padding: 10;
+
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+#btn:hover {
+  width: 100px;
+  height: 40px;
+  padding: 10;
+
+  color: blue;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 2px;
+}
