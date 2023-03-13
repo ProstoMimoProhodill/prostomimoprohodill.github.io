@@ -16,4 +16,4 @@ jobs:
         run: docker build . --file Dockerfile --tag my-vue-app
 
       - name: Run Docker
-        run: docker run -it -p 80:80 --rm --name dockerize-vuejs-app my-vue-app
+        run: docker run -i -p 80:80 --rm --name dockerize-vuejs-app my-vue-app
